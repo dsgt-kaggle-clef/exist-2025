@@ -1,4 +1,4 @@
-# clef-project-template
+# EXIST 2025
 
 This is a template repository for CLEF projects. It is meant to be forked and used as a starting point for new projects.
 
