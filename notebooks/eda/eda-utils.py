@@ -63,7 +63,44 @@ def get_types_lst(json_file):
                     types.append(t)
     return types
 
+def get_type_count(json_file, type_val):
+    with open(json_file, 'r', encoding='utf-8') as file:
+        data = json.load(file)
 
+    counter = 0
+    for obj in data.values():
+        if 'labels_task3_2' in obj:
+            for t in obj['labels_task3_2']:
+                if t == type_val:
+                    counter +=1
+                    break
+    return counter
+
+def get_annotator_sample_count(json_file, annotator):
+    with open(json_file, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    counter = 0
+    for obj in data.values():
+        if 'annotators' in obj:
+            for a in obj['annotators']:
+                if a == annotator:
+                    counter +=1
+    return counter
+
+def get_annotator_sample_count_positive(json_file, annotator):
+    with open(json_file, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    counter = 0
+    for obj in data.values():
+        if 'annotators' in obj:
+            for i in range(len(obj['annotators'])):
+                if obj['annotators'][i] == annotator:
+                    if obj['labels_task3_1'][i] == 'YES':
+                        counter +=1
+    return counter
+    
 def main():
     #Update the file location below before running
     json_file = "C:\\Users\\bisho\\Downloads\\EXIST 2025 Dataset V0.1_Extract\\EXIST 2025 Dataset V0.1 (3)\\EXIST 2025 Videos Dataset\\training\\EXIST2025_training.json"
@@ -76,11 +113,16 @@ def main():
     lang= "en"
     result_lang = count_objects_in_language(json_file, lang)
     print(f"Number of objects in {lang}: {result_lang}")
-    print(f"Annotators: {get_annotator_lst(json_file)}")
+    annotators = get_annotator_lst(json_file)
+    print(f"Annotators: {annotators}")
     classifications = get_classifications_lst(json_file)
     print(f"Classifications: {classifications}")
     print(f"Classifications count: {len(classifications)}")
     print(f"types: {get_types_lst(json_file)}")
+    print(f"DIRECT count: {get_type_count(json_file, 'DIRECT')}")
+    print(f"JUDGEMENTAL count: {get_type_count(json_file, 'JUDGEMENTAL')}")
+    for a in annotators:
+        print(f"{a} sample count: {get_annotator_sample_count(json_file, a)} {a} positive sample count: {get_annotator_sample_count_positive(json_file, a)}")
 
 if __name__ == "__main__":
     main()
