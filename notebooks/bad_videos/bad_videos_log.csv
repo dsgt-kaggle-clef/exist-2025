@@ -1,0 +1,33 @@
+filename,error_summary
+7127737023934369070.mp4,"[null @ 0x55555575f3c0] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 50 >= 50"
+6985683837988752646.mp4,[h264 @ 0x555555678b00] Invalid NAL unit size (15986 > 6083).
+6843540294646893829.mp4,[h264 @ 0x5555556c29c0] Invalid NAL unit size (16738 > 4736).
+6974815706256854278.mp4,[h264 @ 0x5555556ca9c0] Invalid NAL unit size (4201 > 3955).
+7172562634015886597.mp4,[graph -1 input from stream 0:0 @ 0x15553c003d80] Invalid color space
+6968610667347578117.mp4,[h264 @ 0x5555556ae800] Invalid NAL unit size (83906 > 8913).
+7135611969721109766.mp4,[h264 @ 0x5555556c2d80] Invalid NAL unit size (81824 > 57829).
+6979380675371650310.mp4,[h264 @ 0x5555556b55c0] Invalid NAL unit size (13173 > 9271).
+6910788530201529605.mp4,[h264 @ 0x5555556ab400] Invalid NAL unit size (8268 > 6766).
+6932866433571376390.mp4,[h264 @ 0x5555556c7c40] Invalid NAL unit size (13716 > 12631).
+7089505854399073578.mp4,[h264 @ 0x5555556aa700] Invalid NAL unit size (18069 > 8507).
+6980427314194631942.mp4,[h264 @ 0x5555556a9a00] Invalid NAL unit size (3289 > 1569).
+7010961027382725894.mp4,[h264 @ 0x5555556b8fc0] Invalid NAL unit size (12482 > 8461).
+6855976112825142533.mp4,"[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5555555d6900] stream 0, offset 0x7995b: partial file"
+6927331134334373126.mp4,[h264 @ 0x5555556b02c0] Invalid NAL unit size (11583 > 4940).
+6960334600639991046.mp4,[h264 @ 0x5555556b9dc0] Invalid NAL unit size (3427 > 2538).
+6657214348496211205.mp4,[h264 @ 0x5555556afe00] Invalid NAL unit size (5362 > 2882).
+7136934291056905477.mp4,[h264 @ 0x5555556a9980] Invalid NAL unit size (352 > 129).
+7305803156074597665.mp4,[h264 @ 0x5555556bd9c0] Invalid NAL unit size (4049 > 274).
+7139816941119704322.mp4,[h264 @ 0x5555556ace40] Invalid NAL unit size (34976 > 22622).
+7298026909340814625.mp4,[graph -1 input from stream 0:0 @ 0x155530003d80] Invalid color space
+6957860609790676230.mp4,[h264 @ 0x5555556b6c00] Invalid NAL unit size (4140 > 3197).
+6993013215147855109.mp4,[h264 @ 0x5555556c66c0] Invalid NAL unit size (3561 > 3184).
+6979707057066888454.mp4,[h264 @ 0x5555556e4f00] Invalid NAL unit size (35747 > 14629).
+7137151354811829550.mp4,[h264 @ 0x5555556acc80] Invalid NAL unit size (6466 > 5550).
+6830438577638214918.mp4,"[null @ 0x555555624ec0] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 2 >= 2"
+6956889180056063237.mp4,[h264 @ 0x5555556b3fc0] Invalid NAL unit size (15290 > 11079).
+6910093785212980482.mp4,[h264 @ 0x5555556b2640] Invalid NAL unit size (1817 > 852).
+6971964877405474053.mp4,"[null @ 0x5555555f0880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 260 >= 260"
+7070687387973635330.mp4,[h264 @ 0x5555556b0180] Invalid NAL unit size (9988 > 7596).
+6981100667960151301.mp4,"[null @ 0x555555623640] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 233 >= 233"
+6858029094689393926.mp4,[h264 @ 0x5555556b7580] Invalid NAL unit size (36106 > 59).
