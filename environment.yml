@@ -44,3 +44,4 @@ dependencies:
       - PyEvALL
       - dotenv
       - optuna
+      - jsonschema

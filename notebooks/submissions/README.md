@@ -1,0 +1,3 @@
+- Roberta text only (hard + soft)
+- Roberta (description_fp, analysis_fp, and analysis_fn into text column)
+- Roberta (description_fp+analysis_fp+description_fn)
